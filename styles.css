@@ -1,11 +1,16 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
 }
 
 h1, h2 {
     color: red;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: rgb(138, 217, 138);
 }
 
 .center {
@@ -15,10 +20,23 @@ h1, h2 {
   }
 
 h2 {
-    text-align: left;
+    color: white;
+    font-size: 18px;
+   
 }
 
 body {
     background-color: ivory;
 
+}
+
+p, ol, ul {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: red;
+    padding: 8px;
+}
+
+ol, ul {
+    padding: 30px;
 }
